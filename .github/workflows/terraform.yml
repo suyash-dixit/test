@@ -1,0 +1,14 @@
+name: terraform apply
+on: 
+  push:
+    branches: [main] 
+
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: terraform init
+        run: terraform init
