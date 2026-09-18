@@ -9,7 +9,7 @@ jobs:
      - name: prinit suyash
        run: echo "suyash/sharad"
   second_job:
-    runs-on: windows
+    runs-on: windows-latest
     steps:
      - name: print chachu
        run: echo "chachu"
