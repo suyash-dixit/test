@@ -8,3 +8,8 @@ jobs:
        run: echo "mam love u"
      - name: prinit suyash
        run: echo "suyash/sharad"
+  second_job:
+    runs-on: windows
+    steps:
+     - name: print chachu
+       run: echo "chachu"
