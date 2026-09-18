@@ -6,3 +6,5 @@ jobs:
     steps:
      - name: pahlaprint
        run: echo "mam love u"
+     - name: prinit suyash
+       run: echo "suyash/sharad"
